@@ -44,11 +44,13 @@ Hasil akhir image Preparation
   - Nilai similarity berkisar antara -1 hingga 1, di mana 1 berarti sangat mirip.
 
   - Top-K gambar paling mirip diurutkan berdasarkan skor tertinggi.
-### Simpan Fitur
+### 4. Simpan Fitur
   - Fitur disimpan dalam file `.h5` untuk efisiensi dan akses cepat
-### Integrasi hasil model image similarity dengan dataset narasi 
+### 5. Integrasi hasil model image similarity dengan dataset narasi 
   - Proses integrasi dilakukan menggunakan **Flask API**
   - Endpoint: `POST /predict` menerima gambar dan mengembalikan narasi terkait
+### 6. Deployment
+
     
 ---
 ## Evaluation
